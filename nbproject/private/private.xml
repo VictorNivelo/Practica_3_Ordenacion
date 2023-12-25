@@ -3,10 +3,8 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Victor/Documents/NetBeansProjects/Practica_3_Ordenacion/src/Modelo/Persona.java</file>
-            <file>file:/C:/Users/Victor/Documents/NetBeansProjects/Practica_3_Ordenacion/src/Controlador/Utiles/UtilesControlador.java</file>
-            <file>file:/C:/Users/Victor/Documents/NetBeansProjects/Practica_3_Ordenacion/src/Controlador/TDA/ListaDinamica/Exepciones/EstaVacia.java</file>
-            <file>file:/C:/Users/Victor/Documents/NetBeansProjects/Practica_3_Ordenacion/src/Controlador/TDA/ListaDinamica/ListaDinamica.java</file>
+            <file>file:/C:/Users/Victor/Documents/NetBeansProjects/Practica_3_Ordenacion/src/Controlador/Dao/Bridge.java</file>
+            <file>file:/C:/Users/Victor/Documents/NetBeansProjects/Practica_3_Ordenacion/src/Vista/VistaPrincipal.java</file>
         </group>
     </open-files>
 </project-private>

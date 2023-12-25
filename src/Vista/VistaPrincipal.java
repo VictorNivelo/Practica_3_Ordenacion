@@ -142,7 +142,7 @@ public class VistaPrincipal extends javax.swing.JFrame {
         return null;
     }
     
-    public  Integer OrdenSeleccionadoq(){
+    public  Integer OrdenQuicksort(){
         String OrdenO = cbxOrden.getSelectedItem().toString();
         
         if ("Asendente".equals(OrdenO)) {
@@ -536,12 +536,12 @@ public class VistaPrincipal extends javax.swing.JFrame {
                     
                     System.out.println("LISTA ORDENADA MEDIANTE QuickSort");
                     System.out.println("CAMPO DE ORDENAMIENTO: "+Campo+" METODO DE ORDENAMIENTO: "+Metodo);
-                    System.out.println(UtilesControlador.QuickSort(personaControlDao.all(), OrdenSeleccionadoq(), Campo));
+                    System.out.println(UtilesControlador.QuickSort(personaControlDao.all(), OrdenQuicksort(), Campo));
                     
                     long tiempoFinQ = System.currentTimeMillis();
                     long tiempoEjecucionQ = tiempoFinQ - tiempoInicioQ;
                     
-                    UtilesControlador.QuickSort(mtp.getPersonasTabla(), OrdenSeleccionadoq(), Campo);
+                    UtilesControlador.QuickSort(mtp.getPersonasTabla(), OrdenQuicksort(), Campo);
                     mtp.fireTableDataChanged();
                     
                     System.out.println("Tiempo de ejecución: " + tiempoEjecucionQ + " ms");
